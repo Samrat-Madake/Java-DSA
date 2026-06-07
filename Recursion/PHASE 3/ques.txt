@@ -1,0 +1,23 @@
+    # Phase 3: Recursion on Strings
+
+    Learn:
+
+    * String slicing
+    * Index-based recursion
+
+    ### Questions
+
+    1. Reverse string
+    2. Check palindrome string
+    3. Remove all occurrences of a character
+    4. Replace character recursively
+    5. Count vowels
+    6. Remove duplicate characters
+    7. Convert string to integer (atoi)
+
+// heavy 
+8. Generate all substrings
+9. Check anagram recursively
+10. String compression
+
+---

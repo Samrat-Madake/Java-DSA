@@ -1,0 +1,273 @@
+If your goal is **DSA interview preparation**, recursion should be learned in layers. Don't jump directly to hard backtracking questions.
+
+# Phase 1: Recursion Fundamentals
+
+Learn:
+
+* Base case
+* Recursive case
+* Call stack
+* Stack overflow
+* Recursion tree
+* Tail vs non-tail recursion
+
+### Questions
+
+1. Print numbers from 1 to N
+2. Print numbers from N to 1
+3. Sum of first N natural numbers
+4. Factorial of N
+5. Power(x, n)
+6. Fibonacci Number
+7. Count digits in a number
+8. Sum of digits
+9. Reverse a number
+10. Check palindrome number
+
+---
+
+# Phase 2: Recursion on Arrays
+
+Learn:
+
+* Processing one element at a time
+* Shrinking problem size
+
+### Questions
+
+1.occurrence Find maximum element
+2. Find minimum element
+3. Sum of array elements
+4. Linear search
+5. Find all occurrences of a target
+6. Check if array is sorted
+7. Reverse array recursively
+8. Binary search recursively+
+
+---
+
+# Phase 3: Recursion on Strings
+
+Learn:
+
+* String slicing
+* Index-based recursion
+
+### Questions
+
+1. Reverse string
+2. Check palindrome string
+3. Remove all occurrences of a character
+4. Replace character recursively
+5. Count vowels
+6. Remove duplicate characters
+7. Convert string to integer (atoi)
+8. Generate all substrings
+9. Check anagram recursively
+10. String compression
+
+---
+
+# Phase 4: Pattern Generation Recursion
+
+These develop recursive thinking.
+
+### Questions
+1. Print triangle pattern
+2. Print reverse triangle
+3. Print square pattern
+4. Recursive star pyramid
+5. Recursive number pattern
+
+---
+
+# Phase 5: Multiple Recursive Calls
+
+This is where recursion becomes interesting.
+
+### Questions
+1. Fibonacci Series
+2. Climbing Stairs
+3. Count ways to reach Nth stair
+4. Count paths in a grid
+5. Friend Pairing Problem
+6. Tiling Problem
+7. House Robber (Recursive)
+8. Decode Ways
+
+---
+
+# Phase 6: Subsequences
+
+Very important for Backtracking.
+
+### Questions
+
+1. Print all subsequences
+2. Count subsequences
+3. Sum of subsequences
+4. Subsequence with given sum
+5. Count subsequences with given sum
+6. Longest subsequence
+7. Generate binary strings
+
+---
+
+# Phase 7: Subsets
+
+### Questions
+
+1. Generate all subsets
+2. Subset Sum
+3. Subset Sum II
+4. Count subsets with sum K
+5. Partition Equal Subset Sum
+6. Target Sum
+
+---
+
+# Phase 8: Backtracking Basics
+
+Learn:
+
+* Choose
+* Explore
+* Undo
+
+### Questions
+
+1. Permutations of string
+2. Permutations of array
+3. Letter combinations of phone number
+4. Generate Parentheses
+5. Combination Sum
+6. Combination Sum II
+7. Combination Sum III
+8. Combinations (nCr)
+
+---
+
+# Phase 9: Classic Backtracking
+
+### Questions
+
+1. N-Queens
+2. Rat in a Maze
+3. Sudoku Solver
+4. Word Search
+5. M-Coloring Problem
+6. Knight Tour
+7. Restore IP Addresses
+8. Palindrome Partitioning
+
+---
+
+# Phase 10: Recursion + Trees
+
+### Questions
+
+1. Tree Traversals
+
+   * Preorder
+   * Inorder
+   * Postorder
+
+2. Height of Tree
+
+3. Count Nodes
+
+4. Count Leaf Nodes
+
+5. Diameter of Tree
+
+6. Balanced Tree
+
+7. Lowest Common Ancestor
+
+8. Path Sum
+
+---
+
+# Phase 11: Advanced Recursion
+
+### Questions
+
+1. Tower of Hanoi
+2. Josephus Problem
+3. K-th Symbol in Grammar
+4. Recursive Bubble Sort
+5. Recursive Selection Sort
+6. Recursive Insertion Sort
+7. Gray Code
+8. Catalan Number
+9. Expression Evaluation
+10. Different Ways to Add Parentheses
+
+---
+
+# Phase 12: Recursion → Dynamic Programming Transition
+
+These questions are solved first using recursion, then optimized.
+
+### Questions
+
+1. Fibonacci
+2. Climbing Stairs
+3. House Robber
+4. Coin Change
+5. Knapsack
+6. Longest Common Subsequence
+7. Edit Distance
+8. Matrix Chain Multiplication
+9. Partition DP
+10. Burst Balloons
+
+---
+
+# Recommended Order (30-Day Plan)
+
+### Week 1
+
+* Phase 1
+* Phase 2
+* Phase 3
+
+### Week 2
+
+* Phase 4
+* Phase 5
+* Phase 6
+
+### Week 3
+
+* Phase 7
+* Phase 8
+
+### Week 4
+
+* Phase 9
+* Phase 10
+* Phase 11
+* Phase 12
+
+---
+
+## Must-Do Questions Before Moving to DP
+
+1. Factorial
+2. Power(x,n)
+3. Fibonacci
+4. Check Sorted Array
+5. Binary Search
+6. Print Subsequences
+7. Generate Subsets
+8. Permutations
+9. Combination Sum
+10. Generate Parentheses
+11. N-Queens
+12. Sudoku Solver
+13. Tower of Hanoi
+14. Josephus Problem
+15. Climbing Stairs
+
+Master these 15 questions and you'll understand about **80% of recursion patterns** used in interviews and competitive programming.

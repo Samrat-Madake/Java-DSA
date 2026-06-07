@@ -1,0 +1,11 @@
+    BASED ON ARRAY 
+    
+    
+    1. Find maximum element
+    2. Find minimum element
+    3. Sum of array elements
+    4. Linear search
+    5. Find all occurrences of a target
+    6. Check if array is sorted
+    7. Reverse array recursively
+    8. Binary search recursively

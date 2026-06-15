@@ -1,51 +1,62 @@
-// 6. Tiling Problem
 /*
-Given a floor of dimensions 2 x n and tiles of dimensions 2 x 1, the task is to find the number of ways the floor can be tiled. A tile can either be placed horizontally i.e as a 1 x 2 tile or vertically i.e as 2 x 1 tile. 
+198. House Robber
 
-Note: Two tiling arrangements are considered different if the placement of at least one tile differs.
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
-Examples :
+Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
 
-Input: n = 3
-Output: 3
-Explanation: We need 3 tiles to tile the board of size 2 x 3.
-We can tile in following ways:
-1) Place all 3 tiles vertically.
-2) Place first tile vertically and remaining 2 tiles horizontally.
-3) Place first 2 tiles horizontally and remaining tiles vertically.
+ 
 
-Explanation :
+Example 1:
 
-At any point we have 2 choices to place the tile:
-1. Place the tile vertically, in this case the problem reduces to f(n-1) as one tile is fixed and we need to find for remaining n-1 tiles.
+Input: nums = [1,2,3,1]
+Output: 4
+Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
+Total amount you can rob = 1 + 3 = 4.
+Example 2:
 
-2. Place the tile horizontally, in this case the problem reduces to f(n-2) as two tiles are fixed and we need to find for remaining n-2 tiles.
+Input: nums = [2,7,9,3,1]
+Output: 12
+Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
+Total amount you can rob = 2 + 9 + 1 = 12.
+ 
+
+Constraints:
+
+1 <= nums.length <= 100
+0 <= nums[i] <= 400
+
 */
 
-public class Q_6 {
-    
-	public int numberOfWays(int n) {
-		int[] dp = new int[46];
-		
-		return func(n, dp);
-		
-	}
-	public int func(int n, int[] dp) {
-		// code here
-		if (n <= 1) {
-			dp[n] = 1;
-			return 1;
-		}
-		
-		if(dp[n]!=0)return dp[n];
-		
-		dp[n] =  func(n - 1,dp) + func(n - 2,dp);
-		return dp[n];
-	}
+import java.util.Arrays;
 
-    public static void main(String[] args) {
-        Q_6 q = new Q_6();
-        int n = 10;
-        System.out.println(q.numberOfWays(n));
+
+class Q_6 {
+    public static void  main(String[] args) {
+        int[] nums = {1,2,3,1};
+
+
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp,-1);
+        int anns = func(nums, dp, nums.length-1);
+        System.out.println(anns);
     }
-};
+
+    public static int func(int[] nums, int[] dp, int i) {
+        // base : 1st index
+        if (i < 0) return 0;
+        else if (i == 0) return nums[0];
+        
+
+        if (dp[i] != -1)return dp[i];
+
+        int pick  = nums[i] + func(nums,dp,i-2);
+        // pick current + last to last house
+
+        int notPick = func(nums,dp,i-1);
+        // same as last house
+
+        dp[i] = Math.max(pick,notPick);
+        return dp[i];
+    }
+}

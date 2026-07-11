@@ -1,4 +1,4 @@
-public class ReverseString {
+public class Q2 {
     
     public void reverseString(char[] s) {
         int l = 0, r = s.length - 1;

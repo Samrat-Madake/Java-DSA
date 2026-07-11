@@ -1,0 +1,18 @@
+
+## Fixed size window pattern ## 
+
+Q1 :  643. Maximum Average Subarray I	
+Q2 :  2379. Minimum Recolors to Get K Consecutive Black Blocks	
+Q3 :  1876. Substrings of Size Three with Distinct Characters	
+Q4 :  1456. Maximum Number of Vowels in a Substring of Given Length	
+Q5 :  2461. Maximum Sum of Distinct Subarrays With Length K	
+Q6 :  1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold	
+Q7 :  2269. Find the K-Beauty of a Number	
+Q8 :  438. Find All Anagrams in a String	
+Q9 :  2090. K Radius Subarray Averages	
+
+
+
+Q10 :  26. Remove Duplicates from Sorted Array	Variable size window pattern 02
+Q11 :  209. Minimum Size Subarray Sum	Variable size window pattern 02
+Q12 :  1004. Max Consecutive Ones III	Variable size window pattern 02

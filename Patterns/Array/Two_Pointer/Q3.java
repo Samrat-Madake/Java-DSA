@@ -37,7 +37,7 @@ s consist of printable ASCII characters.
 
 */
 
-class ReverseVowel {
+class Q3 {
     public String reverseVowels(String s) {
         int l = 0, r = s.length() - 1;
 

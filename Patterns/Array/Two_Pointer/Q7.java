@@ -38,7 +38,7 @@ s and t consist only of lowercase English letters.
 
 */
 
-public class AppendChar {
+public class Q7 {
     
     public int appendCharacters(String s, String t) {
         /*
@@ -82,7 +82,7 @@ public class AppendChar {
         return 0;
     }
     public static void main(String[] args) {
-        AppendChar obj = new AppendChar();
+        Q7 obj = new Q7();
         String s = "coaching", t = "coding";
         System.out.println(obj.appendCharacters(s, t));
     }

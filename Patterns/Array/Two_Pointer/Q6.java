@@ -31,7 +31,7 @@ import java.util.*;
 //     }
 // }
 
-class ThreeSum {
+class Q6 {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
@@ -59,7 +59,7 @@ class ThreeSum {
         return list;
     }
     public static void main(String[] args) {
-        ThreeSum obj = new ThreeSum();
+        Q6 obj = new Q6();
         int[] nums = {-1, 0, 1, 2, -1, -4};
         System.out.println(obj.threeSum(nums));
 }}

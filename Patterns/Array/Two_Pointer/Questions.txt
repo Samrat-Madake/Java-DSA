@@ -1,0 +1,27 @@
+Q1 : 1. Two sum	
+
+Q2 : 344. Reverse String	
+
+Q3 : 345 .Reverse Vowel of a string	
+
+Q4 : 977. Squares of a Sorted Array	
+
+Q5 : 88. Merge Sorted Array	
+
+Q6 : 15. 3Sum	
+
+Q7 : 2486. Append Characters to String to Make Subsequence	
+
+Q8 : 75. Sort Colors	
+
+Q9 : 557. Reverse Words in a String III	
+
+Q10 : 151. Reverse Words in a String	
+
+Q11 : 26. Remove Duplicates from Sorted Array	
+
+Q12 : 1877. Minimize Maximum Pair Sum in Array	
+
+Q13 : 1750. Minimum Length of String After Deleting Similar Ends	
+	
+	

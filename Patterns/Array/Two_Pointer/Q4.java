@@ -28,7 +28,7 @@ Follow up: Squaring each element and sorting the new array is very trivial, coul
 
 */
 
-public class sortedSqaure {
+public class Q4 {
 
     public int[] sortedSquares(int[] nums) {
         int[] ans = new int[nums.length];
@@ -47,7 +47,7 @@ public class sortedSqaure {
         return ans;
     }
     public static void main(String[] args) {
-        sortedSqaure obj = new sortedSqaure();
+        Q4 obj = new Q4();
         int[] nums = {-4,-1,0,3,10};
         int[] ans = obj.sortedSquares(nums);
         for(int i: ans){

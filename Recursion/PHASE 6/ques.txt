@@ -1,0 +1,12 @@
+# Phase 6: Subsequence : Take / Not Take
+
+
+### Questions
+1. Generate Binary Strings Without Consecutive 1s
+2. Generate Parentheses
+
+
+
+
+
+---
